@@ -1,0 +1,282 @@
+{
+  "@context" : {
+    "hasUUID" : {
+      "@id" : "https://w3id.org/def/saref4inma#hasUUID",
+      "@type" : "@id"
+    },
+    "GTIN14ID" : {
+      "@id" : "https://w3id.org/def/saref4inma#GTIN14ID"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/terms/created"
+    },
+    "belongsToCategory" : {
+      "@id" : "https://w3id.org/def/saref4inma#belongsToCategory",
+      "@type" : "@id"
+    },
+    "ProductionEquipmentFunction" : {
+      "@id" : "https://w3id.org/def/saref4inma#ProductionEquipmentFunction"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "hasGTIN14IDValue" : {
+      "@id" : "https://w3id.org/def/saref4inma#hasGTIN14IDValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "WorkCenter" : {
+      "@id" : "https://w3id.org/def/saref4inma#WorkCenter"
+    },
+    "IRDI" : {
+      "@id" : "https://w3id.org/def/saref4inma#IRDI"
+    },
+    "MaterialBatch" : {
+      "@id" : "https://w3id.org/def/saref4inma#MaterialBatch"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "GTIN8ID" : {
+      "@id" : "https://w3id.org/def/saref4inma#GTIN8ID"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "hasGTIN8IDValue" : {
+      "@id" : "https://w3id.org/def/saref4inma#hasGTIN8IDValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasGTIN13IDValue" : {
+      "@id" : "https://w3id.org/def/saref4inma#hasGTIN13IDValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "FeatureOfInterest" : {
+      "@id" : "https://w3id.org/saref#FeatureOfInterest"
+    },
+    "ProductionEquipmentCategory" : {
+      "@id" : "https://w3id.org/def/saref4inma#ProductionEquipmentCategory"
+    },
+    "hasVersion" : {
+      "@id" : "https://w3id.org/def/saref4inma#hasVersion"
+    },
+    "measuresProperty" : {
+      "@id" : "https://w3id.org/saref#measuresProperty",
+      "@type" : "@id"
+    },
+    "ItemBatch" : {
+      "@id" : "https://w3id.org/def/saref4inma#ItemBatch"
+    },
+    "hasCertificate" : {
+      "@id" : "https://w3id.org/def/saref4inma#hasCertificate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasIdentifier" : {
+      "@id" : "https://w3id.org/def/saref4inma#hasIdentifier",
+      "@type" : "@id"
+    },
+    "hasGTIN14ID" : {
+      "@id" : "https://w3id.org/def/saref4inma#hasGTIN14ID",
+      "@type" : "@id"
+    },
+    "hasUpdate" : {
+      "@id" : "https://w3id.org/def/saref4inma#hasUpdate",
+      "@type" : "@id"
+    },
+    "Measurement" : {
+      "@id" : "https://w3id.org/saref#Measurement"
+    },
+    "maxQualifiedCardinality" : {
+      "@id" : "http://www.w3.org/2002/07/owl#maxQualifiedCardinality"
+    },
+    "hasGTIN12ID" : {
+      "@id" : "https://w3id.org/def/saref4inma#hasGTIN12ID",
+      "@type" : "@id"
+    },
+    "hasIRDIValue" : {
+      "@id" : "https://w3id.org/def/saref4inma#hasIRDIValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "isCreatedIn" : {
+      "@id" : "https://w3id.org/def/saref4inma#isCreatedIn",
+      "@type" : "@id"
+    },
+    "ExpectedMeasurement" : {
+      "@id" : "https://w3id.org/def/saref4inma#ExpectedMeasurement"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "Batch" : {
+      "@id" : "https://w3id.org/def/saref4inma#Batch"
+    },
+    "Building" : {
+      "@id" : "https://w3id.org/def/s4bldg#Building"
+    },
+    "hasUUIDValue" : {
+      "@id" : "https://w3id.org/def/saref4inma#hasUUIDValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creates" : {
+      "@id" : "https://w3id.org/def/saref4inma#creates",
+      "@type" : "@id"
+    },
+    "hasSize" : {
+      "@id" : "https://w3id.org/def/saref4inma#hasSize",
+      "@type" : "@id"
+    },
+    "consistsOfItem" : {
+      "@id" : "https://w3id.org/def/saref4inma#consistsOfItem",
+      "@type" : "@id"
+    },
+    "ID" : {
+      "@id" : "https://w3id.org/def/saref4inma#ID"
+    },
+    "ItemCategory" : {
+      "@id" : "https://w3id.org/def/saref4inma#ItemCategory"
+    },
+    "ProductionEquipment" : {
+      "@id" : "https://w3id.org/def/saref4inma#ProductionEquipment"
+    },
+    "Size" : {
+      "@id" : "https://w3id.org/def/saref4inma#Size"
+    },
+    "makesMeasurement" : {
+      "@id" : "https://w3id.org/saref#makesMeasurement",
+      "@type" : "@id"
+    },
+    "hasModelNumber" : {
+      "@id" : "https://w3id.org/def/saref4inma#hasModelNumber"
+    },
+    "ConceptScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    },
+    "produces" : {
+      "@id" : "https://w3id.org/def/saref4inma#produces",
+      "@type" : "@id"
+    },
+    "Property" : {
+      "@id" : "https://w3id.org/saref#Property"
+    },
+    "MaterialCategory" : {
+      "@id" : "https://w3id.org/def/saref4inma#MaterialCategory"
+    },
+    "hasFunction" : {
+      "@id" : "https://w3id.org/saref#hasFunction",
+      "@type" : "@id"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/terms/source"
+    },
+    "hasGTIN8ID" : {
+      "@id" : "https://w3id.org/def/saref4inma#hasGTIN8ID",
+      "@type" : "@id"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/terms/publisher"
+    },
+    "hasFeatureOfInterest" : {
+      "@id" : "https://w3id.org/def/saref4inma#hasFeatureOfInterest",
+      "@type" : "@id"
+    },
+    "hasSerialNumber" : {
+      "@id" : "https://w3id.org/def/saref4inma#hasSerialNumber"
+    },
+    "Site" : {
+      "@id" : "https://w3id.org/def/saref4inma#Site"
+    },
+    "modified" : {
+      "@id" : "http://purl.org/dc/terms/modified"
+    },
+    "hasIDValue" : {
+      "@id" : "https://w3id.org/def/saref4inma#hasIDValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasState" : {
+      "@id" : "https://w3id.org/saref#hasState",
+      "@type" : "@id"
+    },
+    "GTIN12ID" : {
+      "@id" : "https://w3id.org/def/saref4inma#GTIN12ID"
+    },
+    "State" : {
+      "@id" : "https://w3id.org/saref#State"
+    },
+    "Function" : {
+      "@id" : "https://w3id.org/saref#Function"
+    },
+    "BuildingSpace" : {
+      "@id" : "https://w3id.org/def/s4bldg#BuildingSpace"
+    },
+    "needsEquipment" : {
+      "@id" : "https://w3id.org/def/saref4inma#needsEquipment",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "isProducedBy" : {
+      "@id" : "https://w3id.org/def/saref4inma#isProducedBy",
+      "@type" : "@id"
+    },
+    "hasIRDI" : {
+      "@id" : "https://w3id.org/def/saref4inma#hasIRDI",
+      "@type" : "@id"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/terms/contributor"
+    },
+    "ActualMeasurement" : {
+      "@id" : "https://w3id.org/def/saref4inma#ActualMeasurement"
+    },
+    "hasGTIN12IDValue" : {
+      "@id" : "https://w3id.org/def/saref4inma#hasGTIN12IDValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Factory" : {
+      "@id" : "https://w3id.org/def/saref4inma#Factory"
+    },
+    "Device" : {
+      "@id" : "https://w3id.org/saref#Device"
+    },
+    "consistsOfBatch" : {
+      "@id" : "https://w3id.org/def/saref4inma#consistsOfBatch",
+      "@type" : "@id"
+    },
+    "Item" : {
+      "@id" : "https://w3id.org/def/saref4inma#Item"
+    },
+    "Area" : {
+      "@id" : "https://w3id.org/def/saref4inma#Area"
+    },
+    "GTIN13ID" : {
+      "@id" : "https://w3id.org/def/saref4inma#GTIN13ID"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "PhysicalObject" : {
+      "@id" : "https://w3id.org/def/s4bldg#PhysicalObject"
+    },
+    "UUID" : {
+      "@id" : "https://w3id.org/def/saref4inma#UUID"
+    },
+    "isCategoryOf" : {
+      "@id" : "https://w3id.org/def/saref4inma#isCategoryOf",
+      "@type" : "@id"
+    },
+    "hasGTIN13ID" : {
+      "@id" : "https://w3id.org/def/saref4inma#hasGTIN13ID",
+      "@type" : "@id"
+    },
+    "isFeatureOfInterestOf" : {
+      "@id" : "https://w3id.org/def/saref4inma#isFeatureOfInterestOf",
+      "@type" : "@id"
+    }
+  }
+}

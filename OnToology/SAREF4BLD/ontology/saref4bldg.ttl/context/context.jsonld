@@ -1,0 +1,1303 @@
+{
+  "@context" : {
+    "waterPressureMax" : {
+      "@id" : "https://w3id.org/def/saref4bldg#waterPressureMax",
+      "@type" : "@id"
+    },
+    "fluidFlowRateMax" : {
+      "@id" : "https://w3id.org/def/saref4bldg#fluidFlowRateMax",
+      "@type" : "@id"
+    },
+    "workingPressureMin" : {
+      "@id" : "https://w3id.org/def/saref4bldg#workingPressureMin",
+      "@type" : "@id"
+    },
+    "waterStorageCapacity" : {
+      "@id" : "https://w3id.org/def/saref4bldg#waterStorageCapacity",
+      "@type" : "@id"
+    },
+    "valveMechanism" : {
+      "@id" : "https://w3id.org/def/saref4bldg#valveMechanism",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "capacityControlType" : {
+      "@id" : "https://w3id.org/def/saref4bldg#capacityControlType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "mechanicalOperated" : {
+      "@id" : "https://w3id.org/def/saref4bldg#mechanicalOperated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "CooledBeam" : {
+      "@id" : "https://w3id.org/def/saref4bldg#CooledBeam"
+    },
+    "UnitOfMeasure" : {
+      "@id" : "https://w3id.org/saref#UnitOfMeasure"
+    },
+    "secondaryCurrent" : {
+      "@id" : "https://w3id.org/def/saref4bldg#secondaryCurrent",
+      "@type" : "@id"
+    },
+    "transformerVectorGroup" : {
+      "@id" : "https://w3id.org/def/saref4bldg#transformerVectorGroup",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "SolarDevice" : {
+      "@id" : "https://w3id.org/def/saref4bldg#SolarDevice"
+    },
+    "teTime" : {
+      "@id" : "https://w3id.org/def/saref4bldg#teTime",
+      "@type" : "@id"
+    },
+    "secondaryAirFlowRateMin" : {
+      "@id" : "https://w3id.org/def/saref4bldg#secondaryAirFlowRateMin",
+      "@type" : "@id"
+    },
+    "Burner" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Burner"
+    },
+    "nominalPowerRate" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalPowerRate",
+      "@type" : "@id"
+    },
+    "primaryApparentPower" : {
+      "@id" : "https://w3id.org/def/saref4bldg#primaryApparentPower",
+      "@type" : "@id"
+    },
+    "temperatureRating" : {
+      "@id" : "https://w3id.org/def/saref4bldg#temperatureRating",
+      "@type" : "@id"
+    },
+    "CommunicationAppliance" : {
+      "@id" : "https://w3id.org/def/saref4bldg#CommunicationAppliance"
+    },
+    "colorRenderingIndex" : {
+      "@id" : "https://w3id.org/def/saref4bldg#colorRenderingIndex",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "colorAppearance" : {
+      "@id" : "https://w3id.org/def/saref4bldg#colorAppearance",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "TubeBundle" : {
+      "@id" : "https://w3id.org/def/saref4bldg#TubeBundle"
+    },
+    "nominalCoolingCapacity" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalCoolingCapacity",
+      "@type" : "@id"
+    },
+    "controlStrategy" : {
+      "@id" : "https://w3id.org/def/saref4bldg#controlStrategy",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "Filter" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Filter"
+    },
+    "ambientDesignWetBulbTemperature" : {
+      "@id" : "https://w3id.org/def/saref4bldg#ambientDesignWetBulbTemperature",
+      "@type" : "@id"
+    },
+    "secondaryApparentPower" : {
+      "@id" : "https://w3id.org/def/saref4bldg#secondaryApparentPower",
+      "@type" : "@id"
+    },
+    "nominalMoistureGain" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalMoistureGain",
+      "@type" : "@id"
+    },
+    "Lamp" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Lamp"
+    },
+    "finishColor" : {
+      "@id" : "https://w3id.org/def/saref4bldg#finishColor",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "VibrationIsolator" : {
+      "@id" : "https://w3id.org/def/saref4bldg#VibrationIsolator"
+    },
+    "pressureRating" : {
+      "@id" : "https://w3id.org/def/saref4bldg#pressureRating",
+      "@type" : "@id"
+    },
+    "airFlowRateMax" : {
+      "@id" : "https://w3id.org/def/saref4bldg#airFlowRateMax",
+      "@type" : "@id"
+    },
+    "hasSpace" : {
+      "@id" : "https://w3id.org/def/saref4bldg#hasSpace",
+      "@type" : "@id"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "nominalStaticPressure" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalStaticPressure",
+      "@type" : "@id"
+    },
+    "coilWidth" : {
+      "@id" : "https://w3id.org/def/saref4bldg#coilWidth",
+      "@type" : "@id"
+    },
+    "heatTransferDimension" : {
+      "@id" : "https://w3id.org/def/saref4bldg#heatTransferDimension",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ProtectiveDevice" : {
+      "@id" : "https://w3id.org/def/saref4bldg#ProtectiveDevice"
+    },
+    "nominalFrequency" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalFrequency",
+      "@type" : "@id"
+    },
+    "pumpFlowRateMin" : {
+      "@id" : "https://w3id.org/def/saref4bldg#pumpFlowRateMin",
+      "@type" : "@id"
+    },
+    "FlowInstrument" : {
+      "@id" : "https://w3id.org/def/saref4bldg#FlowInstrument"
+    },
+    "standard" : {
+      "@id" : "https://w3id.org/def/saref4bldg#standard",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "colorTemperature" : {
+      "@id" : "https://w3id.org/def/saref4bldg#colorTemperature",
+      "@type" : "@id"
+    },
+    "bladeAction" : {
+      "@id" : "https://w3id.org/def/saref4bldg#bladeAction",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "nominalEfficiency" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalEfficiency",
+      "@type" : "@id"
+    },
+    "SanitaryTerminal" : {
+      "@id" : "https://w3id.org/def/saref4bldg#SanitaryTerminal"
+    },
+    "Humidifier" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Humidifier"
+    },
+    "hasDefrost" : {
+      "@id" : "https://w3id.org/def/saref4bldg#hasDefrost",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "waterInletTemperatureMin" : {
+      "@id" : "https://w3id.org/def/saref4bldg#waterInletTemperatureMin",
+      "@type" : "@id"
+    },
+    "closeOffRating" : {
+      "@id" : "https://w3id.org/def/saref4bldg#closeOffRating",
+      "@type" : "@id"
+    },
+    "BuildingDevice" : {
+      "@id" : "https://w3id.org/def/saref4bldg#BuildingDevice"
+    },
+    "frameDepth" : {
+      "@id" : "https://w3id.org/def/saref4bldg#frameDepth",
+      "@type" : "@id"
+    },
+    "ShadingDevice" : {
+      "@id" : "https://w3id.org/def/saref4bldg#ShadingDevice"
+    },
+    "internalRefrigerantVolume" : {
+      "@id" : "https://w3id.org/def/saref4bldg#internalRefrigerantVolume",
+      "@type" : "@id"
+    },
+    "frameType" : {
+      "@id" : "https://w3id.org/def/saref4bldg#frameType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "startingTime" : {
+      "@id" : "https://w3id.org/def/saref4bldg#startingTime",
+      "@type" : "@id"
+    },
+    "workingPressureMax" : {
+      "@id" : "https://w3id.org/def/saref4bldg#workingPressureMax",
+      "@type" : "@id"
+    },
+    "basinReserveVolume" : {
+      "@id" : "https://w3id.org/def/saref4bldg#basinReserveVolume",
+      "@type" : "@id"
+    },
+    "height" : {
+      "@id" : "https://w3id.org/def/saref4bldg#height",
+      "@type" : "@id"
+    },
+    "patternType" : {
+      "@id" : "https://w3id.org/def/saref4bldg#patternType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "numberOfGangs" : {
+      "@id" : "https://w3id.org/def/saref4bldg#numberOfGangs",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "waterFlowControlSystemType" : {
+      "@id" : "https://w3id.org/def/saref4bldg#waterFlowControlSystemType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "externalSurfaceArea" : {
+      "@id" : "https://w3id.org/def/saref4bldg#externalSurfaceArea",
+      "@type" : "@id"
+    },
+    "lightEmitterNominalPower" : {
+      "@id" : "https://w3id.org/def/saref4bldg#lightEmitterNominalPower",
+      "@type" : "@id"
+    },
+    "hydraulicDiameter" : {
+      "@id" : "https://w3id.org/def/saref4bldg#hydraulicDiameter",
+      "@type" : "@id"
+    },
+    "FireSuppressionTerminal" : {
+      "@id" : "https://w3id.org/def/saref4bldg#FireSuppressionTerminal"
+    },
+    "nominalSupplyWaterTemperatureCooling" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalSupplyWaterTemperatureCooling",
+      "@type" : "@id"
+    },
+    "MedicalDevice" : {
+      "@id" : "https://w3id.org/def/saref4bldg#MedicalDevice"
+    },
+    "verticalSpacing" : {
+      "@id" : "https://w3id.org/def/saref4bldg#verticalSpacing",
+      "@type" : "@id"
+    },
+    "nominalHeatTransferArea" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalHeatTransferArea",
+      "@type" : "@id"
+    },
+    "heatTransferSurfaceArea" : {
+      "@id" : "https://w3id.org/def/saref4bldg#heatTransferSurfaceArea",
+      "@type" : "@id"
+    },
+    "hasValue" : {
+      "@id" : "https://w3id.org/saref#hasValue"
+    },
+    "flowArrangement" : {
+      "@id" : "https://w3id.org/def/saref4bldg#flowArrangement",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "inLineRowSpacing" : {
+      "@id" : "https://w3id.org/def/saref4bldg#inLineRowSpacing",
+      "@type" : "@id"
+    },
+    "heatTransferTypeEnum" : {
+      "@id" : "https://w3id.org/def/saref4bldg#heatTransferTypeEnum",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "nominalHeatRejectionRate" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalHeatRejectionRate",
+      "@type" : "@id"
+    },
+    "refrigerantClass" : {
+      "@id" : "https://w3id.org/def/saref4bldg#refrigerantClass",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "HeatExchanger" : {
+      "@id" : "https://w3id.org/def/saref4bldg#HeatExchanger"
+    },
+    "energySource" : {
+      "@id" : "https://w3id.org/def/saref4bldg#energySource",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "lampMaintenanceFactor" : {
+      "@id" : "https://w3id.org/def/saref4bldg#lampMaintenanceFactor",
+      "@type" : "@id"
+    },
+    "electricGeneratorEfficiency" : {
+      "@id" : "https://w3id.org/def/saref4bldg#electricGeneratorEfficiency",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "contains" : {
+      "@id" : "https://w3id.org/def/saref4bldg#contains",
+      "@type" : "@id"
+    },
+    "mediaSource" : {
+      "@id" : "https://w3id.org/def/saref4bldg#mediaSource",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "integratedLightingType" : {
+      "@id" : "https://w3id.org/def/saref4bldg#integratedLightingType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "testPressure" : {
+      "@id" : "https://w3id.org/def/saref4bldg#testPressure",
+      "@type" : "@id"
+    },
+    "hasTurbulator" : {
+      "@id" : "https://w3id.org/def/saref4bldg#hasTurbulator",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "insideDiameter" : {
+      "@id" : "https://w3id.org/def/saref4bldg#insideDiameter",
+      "@type" : "@id"
+    },
+    "Damper" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Damper"
+    },
+    "Tank" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Tank"
+    },
+    "isWaterStorageHeater" : {
+      "@id" : "https://w3id.org/def/saref4bldg#isWaterStorageHeater",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "staggeredRowSpacing" : {
+      "@id" : "https://w3id.org/def/saref4bldg#staggeredRowSpacing",
+      "@type" : "@id"
+    },
+    "nominalLengthOrDiameter" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalLengthOrDiameter",
+      "@type" : "@id"
+    },
+    "Measurement" : {
+      "@id" : "https://w3id.org/saref#Measurement"
+    },
+    "accessType" : {
+      "@id" : "https://w3id.org/def/saref4bldg#accessType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Boiler" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Boiler"
+    },
+    "audioVolume" : {
+      "@id" : "https://w3id.org/def/saref4bldg#audioVolume",
+      "@type" : "@id"
+    },
+    "motorDriveType" : {
+      "@id" : "https://w3id.org/def/saref4bldg#motorDriveType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "waterRequirement" : {
+      "@id" : "https://w3id.org/def/saref4bldg#waterRequirement",
+      "@type" : "@id"
+    },
+    "valvePattern" : {
+      "@id" : "https://w3id.org/def/saref4bldg#valvePattern",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "bladeShape" : {
+      "@id" : "https://w3id.org/def/saref4bldg#bladeShape",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "nominalCapacity" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalCapacity",
+      "@type" : "@id"
+    },
+    "ElectricMotor" : {
+      "@id" : "https://w3id.org/def/saref4bldg#ElectricMotor"
+    },
+    "remoteReading" : {
+      "@id" : "https://w3id.org/def/saref4bldg#remoteReading",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "shadingDeviceType" : {
+      "@id" : "https://w3id.org/def/saref4bldg#shadingDeviceType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "DistributionDevice" : {
+      "@id" : "https://w3id.org/def/saref4bldg#DistributionDevice"
+    },
+    "legend" : {
+      "@id" : "https://w3id.org/def/saref4bldg#legend",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "supportedWeightMax" : {
+      "@id" : "https://w3id.org/def/saref4bldg#supportedWeightMax",
+      "@type" : "@id"
+    },
+    "idealShaftPower" : {
+      "@id" : "https://w3id.org/def/saref4bldg#idealShaftPower",
+      "@type" : "@id"
+    },
+    "Condenser" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Condenser"
+    },
+    "nominalEnergyConsumption" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalEnergyConsumption",
+      "@type" : "@id"
+    },
+    "secondaryAirFlowRateMax" : {
+      "@id" : "https://w3id.org/def/saref4bldg#secondaryAirFlowRateMax",
+      "@type" : "@id"
+    },
+    "arrangement" : {
+      "@id" : "https://w3id.org/def/saref4bldg#arrangement",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "AirToAirHeatRecovery" : {
+      "@id" : "https://w3id.org/def/saref4bldg#AirToAirHeatRecovery"
+    },
+    "impellerDiameter" : {
+      "@id" : "https://w3id.org/def/saref4bldg#impellerDiameter",
+      "@type" : "@id"
+    },
+    "rightsHolder" : {
+      "@id" : "http://purl.org/dc/terms/rightsHolder"
+    },
+    "TransportElement" : {
+      "@id" : "https://w3id.org/def/saref4bldg#TransportElement"
+    },
+    "startCurrentFactor" : {
+      "@id" : "https://w3id.org/def/saref4bldg#startCurrentFactor",
+      "@type" : "@id"
+    },
+    "openPressureDrop" : {
+      "@id" : "https://w3id.org/def/saref4bldg#openPressureDrop",
+      "@type" : "@id"
+    },
+    "nominalSupplyWaterTemperatureHeating" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalSupplyWaterTemperatureHeating",
+      "@type" : "@id"
+    },
+    "nominalSorroundingHumidityCooling" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalSorroundingHumidityCooling",
+      "@type" : "@id"
+    },
+    "FlowMovingDevice" : {
+      "@id" : "https://w3id.org/def/saref4bldg#FlowMovingDevice"
+    },
+    "DuctSilencer" : {
+      "@id" : "https://w3id.org/def/saref4bldg#DuctSilencer"
+    },
+    "primaryAirFlowRateMin" : {
+      "@id" : "https://w3id.org/def/saref4bldg#primaryAirFlowRateMin",
+      "@type" : "@id"
+    },
+    "heatTransferMedium" : {
+      "@id" : "https://w3id.org/def/saref4bldg#heatTransferMedium",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "outletTemperatureMin" : {
+      "@id" : "https://w3id.org/def/saref4bldg#outletTemperatureMin",
+      "@type" : "@id"
+    },
+    "imaginaryImpedanceRatio" : {
+      "@id" : "https://w3id.org/def/saref4bldg#imaginaryImpedanceRatio",
+      "@type" : "@id"
+    },
+    "BuildingObject" : {
+      "@id" : "https://w3id.org/def/saref4bldg#BuildingObject"
+    },
+    "sprayType" : {
+      "@id" : "https://w3id.org/def/saref4bldg#sprayType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "connectionSize" : {
+      "@id" : "https://w3id.org/def/saref4bldg#connectionSize",
+      "@type" : "@id"
+    },
+    "DistributionControlDevice" : {
+      "@id" : "https://w3id.org/def/saref4bldg#DistributionControlDevice"
+    },
+    "faceArea" : {
+      "@id" : "https://w3id.org/def/saref4bldg#faceArea",
+      "@type" : "@id"
+    },
+    "nominalDepth" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalDepth",
+      "@type" : "@id"
+    },
+    "endShapeType" : {
+      "@id" : "https://w3id.org/def/saref4bldg#endShapeType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "secondCurvatureRadius" : {
+      "@id" : "https://w3id.org/def/saref4bldg#secondCurvatureRadius",
+      "@type" : "@id"
+    },
+    "shortCircuitVoltage" : {
+      "@id" : "https://w3id.org/def/saref4bldg#shortCircuitVoltage",
+      "@type" : "@id"
+    },
+    "operatingMode" : {
+      "@id" : "https://w3id.org/def/saref4bldg#operatingMode",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "primaryFrequency" : {
+      "@id" : "https://w3id.org/def/saref4bldg#primaryFrequency",
+      "@type" : "@id"
+    },
+    "pipeConnectionEnum" : {
+      "@id" : "https://w3id.org/def/saref4bldg#pipeConnectionEnum",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "capacityPeople" : {
+      "@id" : "https://w3id.org/def/saref4bldg#capacityPeople",
+      "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+    },
+    "nominalWidthOrDiameter" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalWidthOrDiameter",
+      "@type" : "@id"
+    },
+    "hasPartWinding" : {
+      "@id" : "https://w3id.org/def/saref4bldg#hasPartWinding",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "frameThickness" : {
+      "@id" : "https://w3id.org/def/saref4bldg#frameThickness",
+      "@type" : "@id"
+    },
+    "frameSize" : {
+      "@id" : "https://w3id.org/def/saref4bldg#frameSize",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "internalSurfaceArea" : {
+      "@id" : "https://w3id.org/def/saref4bldg#internalSurfaceArea",
+      "@type" : "@id"
+    },
+    "numberOfBlades" : {
+      "@id" : "https://w3id.org/def/saref4bldg#numberOfBlades",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Transformer" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Transformer"
+    },
+    "Outlet" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Outlet"
+    },
+    "Building" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Building"
+    },
+    "FlowStorageDevice" : {
+      "@id" : "https://w3id.org/def/saref4bldg#FlowStorageDevice"
+    },
+    "evaporationCoolant" : {
+      "@id" : "https://w3id.org/def/saref4bldg#evaporationCoolant",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "isolatorCompressibility" : {
+      "@id" : "https://w3id.org/def/saref4bldg#isolatorCompressibility",
+      "@type" : "@id"
+    },
+    "nominalAirFlowRate" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalAirFlowRate",
+      "@type" : "@id"
+    },
+    "bladeEdge" : {
+      "@id" : "https://w3id.org/def/saref4bldg#bladeEdge",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "liftElevationDifference" : {
+      "@id" : "https://w3id.org/def/saref4bldg#liftElevationDifference",
+      "@type" : "@id"
+    },
+    "isContainedIn" : {
+      "@id" : "https://w3id.org/def/saref4bldg#isContainedIn",
+      "@type" : "@id"
+    },
+    "isIlluminated" : {
+      "@id" : "https://w3id.org/def/saref4bldg#isIlluminated",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "partLoadRatioMax" : {
+      "@id" : "https://w3id.org/def/saref4bldg#partLoadRatioMax",
+      "@type" : "@id"
+    },
+    "location" : {
+      "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#location",
+      "@type" : "@id"
+    },
+    "FlowTreatmentDevice" : {
+      "@id" : "https://w3id.org/def/saref4bldg#FlowTreatmentDevice"
+    },
+    "application" : {
+      "@id" : "https://w3id.org/def/saref4bldg#application",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Compressor" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Compressor"
+    },
+    "SwitchingDevice" : {
+      "@id" : "https://w3id.org/def/saref4bldg#SwitchingDevice"
+    },
+    "Evaporator" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Evaporator"
+    },
+    "bodyMass" : {
+      "@id" : "https://w3id.org/def/saref4bldg#bodyMass",
+      "@type" : "@id"
+    },
+    "outletConnectionSize" : {
+      "@id" : "https://w3id.org/def/saref4bldg#outletConnectionSize",
+      "@type" : "@id"
+    },
+    "isFreeHanging" : {
+      "@id" : "https://w3id.org/def/saref4bldg#isFreeHanging",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "isolatorStaticDeflection" : {
+      "@id" : "https://w3id.org/def/saref4bldg#isolatorStaticDeflection",
+      "@type" : "@id"
+    },
+    "dateCopyrighted" : {
+      "@id" : "http://purl.org/dc/terms/dateCopyrighted"
+    },
+    "idealCapacity" : {
+      "@id" : "https://w3id.org/def/saref4bldg#idealCapacity",
+      "@type" : "@id"
+    },
+    "primaryVoltage" : {
+      "@id" : "https://w3id.org/def/saref4bldg#primaryVoltage",
+      "@type" : "@id"
+    },
+    "lockedRotorCurrent" : {
+      "@id" : "https://w3id.org/def/saref4bldg#lockedRotorCurrent",
+      "@type" : "@id"
+    },
+    "capacityWeight" : {
+      "@id" : "https://w3id.org/def/saref4bldg#capacityWeight",
+      "@type" : "@id"
+    },
+    "hadPrimarySource" : {
+      "@id" : "http://www.w3.org/ns/prov#hadPrimarySource"
+    },
+    "nominalDiameter" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalDiameter",
+      "@type" : "@id"
+    },
+    "visibleLightReflectance" : {
+      "@id" : "https://w3id.org/def/saref4bldg#visibleLightReflectance",
+      "@type" : "@id"
+    },
+    "operation" : {
+      "@id" : "https://w3id.org/def/saref4bldg#operation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "powerOutputMax" : {
+      "@id" : "https://w3id.org/def/saref4bldg#powerOutputMax",
+      "@type" : "@id"
+    },
+    "operationalRiterial" : {
+      "@id" : "https://w3id.org/def/saref4bldg#operationalRiterial",
+      "@type" : "@id"
+    },
+    "nominalFlowRate" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalFlowRate",
+      "@type" : "@id"
+    },
+    "readOutType" : {
+      "@id" : "https://w3id.org/def/saref4bldg#readOutType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "nominalBodyDepth" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalBodyDepth",
+      "@type" : "@id"
+    },
+    "spectrumMax" : {
+      "@id" : "https://w3id.org/def/saref4bldg#spectrumMax",
+      "@type" : "@id"
+    },
+    "outsideDiameter" : {
+      "@id" : "https://w3id.org/def/saref4bldg#outsideDiameter",
+      "@type" : "@id"
+    },
+    "numberOfRows" : {
+      "@id" : "https://w3id.org/def/saref4bldg#numberOfRows",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "nominalEvaporatingTemmperature" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalEvaporatingTemmperature",
+      "@type" : "@id"
+    },
+    "ElectricTimeControl" : {
+      "@id" : "https://w3id.org/def/saref4bldg#ElectricTimeControl"
+    },
+    "Fan" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Fan"
+    },
+    "thermalEfficiency" : {
+      "@id" : "https://w3id.org/def/saref4bldg#thermalEfficiency",
+      "@type" : "@id"
+    },
+    "nomminalRotationSpeed" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nomminalRotationSpeed",
+      "@type" : "@id"
+    },
+    "SpaceHeater" : {
+      "@id" : "https://w3id.org/def/saref4bldg#SpaceHeater"
+    },
+    "switchFunction" : {
+      "@id" : "https://w3id.org/def/saref4bldg#switchFunction",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Coil" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Coil"
+    },
+    "DistributionFlowDevice" : {
+      "@id" : "https://w3id.org/def/saref4bldg#DistributionFlowDevice"
+    },
+    "nominalSorroundingTemperatureCooling" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalSorroundingTemperatureCooling",
+      "@type" : "@id"
+    },
+    "netPositiveSuctionHead" : {
+      "@id" : "https://w3id.org/def/saref4bldg#netPositiveSuctionHead",
+      "@type" : "@id"
+    },
+    "partLoadRatioMin" : {
+      "@id" : "https://w3id.org/def/saref4bldg#partLoadRatioMin",
+      "@type" : "@id"
+    },
+    "pumpFlowRateMax" : {
+      "@id" : "https://w3id.org/def/saref4bldg#pumpFlowRateMax",
+      "@type" : "@id"
+    },
+    "bladeThickness" : {
+      "@id" : "https://w3id.org/def/saref4bldg#bladeThickness",
+      "@type" : "@id"
+    },
+    "capacityControl" : {
+      "@id" : "https://w3id.org/def/saref4bldg#capacityControl",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "flowCoefficient" : {
+      "@id" : "https://w3id.org/def/saref4bldg#flowCoefficient",
+      "@type" : "@id"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "EvaporativeCooler" : {
+      "@id" : "https://w3id.org/def/saref4bldg#EvaporativeCooler"
+    },
+    "ElectricFlowStorageDevice" : {
+      "@id" : "https://w3id.org/def/saref4bldg#ElectricFlowStorageDevice"
+    },
+    "thermalTransmittance" : {
+      "@id" : "https://w3id.org/def/saref4bldg#thermalTransmittance",
+      "@type" : "@id"
+    },
+    "thermalMassHeatCapacity" : {
+      "@id" : "https://w3id.org/def/saref4bldg#thermalMassHeatCapacity",
+      "@type" : "@id"
+    },
+    "lampBallastType" : {
+      "@id" : "https://w3id.org/def/saref4bldg#lampBallastType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "length" : {
+      "@id" : "https://w3id.org/def/saref4bldg#length",
+      "@type" : "@id"
+    },
+    "flowResistanceMax" : {
+      "@id" : "https://w3id.org/def/saref4bldg#flowResistanceMax",
+      "@type" : "@id"
+    },
+    "spectrumMin" : {
+      "@id" : "https://w3id.org/def/saref4bldg#spectrumMin",
+      "@type" : "@id"
+    },
+    "effectiveCapacity" : {
+      "@id" : "https://w3id.org/def/saref4bldg#effectiveCapacity",
+      "@type" : "@id"
+    },
+    "finalResistance" : {
+      "@id" : "https://w3id.org/def/saref4bldg#finalResistance",
+      "@type" : "@id"
+    },
+    "primaryAirFlowRateMax" : {
+      "@id" : "https://w3id.org/def/saref4bldg#primaryAirFlowRateMax",
+      "@type" : "@id"
+    },
+    "nominalWaterFlowCooling" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalWaterFlowCooling",
+      "@type" : "@id"
+    },
+    "flowResistanceMin" : {
+      "@id" : "https://w3id.org/def/saref4bldg#flowResistanceMin",
+      "@type" : "@id"
+    },
+    "outputCapacity" : {
+      "@id" : "https://w3id.org/def/saref4bldg#outputCapacity",
+      "@type" : "@id"
+    },
+    "nominalRotationSpeed" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalRotationSpeed",
+      "@type" : "@id"
+    },
+    "isExternal" : {
+      "@id" : "https://w3id.org/def/saref4bldg#isExternal",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "CoolingTower" : {
+      "@id" : "https://w3id.org/def/saref4bldg#CoolingTower"
+    },
+    "isPluggableOutlet" : {
+      "@id" : "https://w3id.org/def/saref4bldg#isPluggableOutlet",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "circuitType" : {
+      "@id" : "https://w3id.org/def/saref4bldg#circuitType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ElectricGenerator" : {
+      "@id" : "https://w3id.org/def/saref4bldg#ElectricGenerator"
+    },
+    "failPosition" : {
+      "@id" : "https://w3id.org/def/saref4bldg#failPosition",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "storageType" : {
+      "@id" : "https://w3id.org/def/saref4bldg#storageType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "nominalReturnWaterTemperatureHeating" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalReturnWaterTemperatureHeating",
+      "@type" : "@id"
+    },
+    "coverWidth" : {
+      "@id" : "https://w3id.org/def/saref4bldg#coverWidth",
+      "@type" : "@id"
+    },
+    "manualOverride" : {
+      "@id" : "https://w3id.org/def/saref4bldg#manualOverride",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "primaryCurrent" : {
+      "@id" : "https://w3id.org/def/saref4bldg#primaryCurrent",
+      "@type" : "@id"
+    },
+    "Property" : {
+      "@id" : "https://w3id.org/saref#Property"
+    },
+    "workingPressure" : {
+      "@id" : "https://w3id.org/def/saref4bldg#workingPressure",
+      "@type" : "@id"
+    },
+    "evaporationMediumType" : {
+      "@id" : "https://w3id.org/def/saref4bldg#evaporationMediumType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "isNeutralSecondaryTerminalAvailable" : {
+      "@id" : "https://w3id.org/def/saref4bldg#isNeutralSecondaryTerminalAvailable",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "temperatureClassification" : {
+      "@id" : "https://w3id.org/def/saref4bldg#temperatureClassification",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "numberOfSections" : {
+      "@id" : "https://w3id.org/def/saref4bldg#numberOfSections",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "limitingTerminalSize" : {
+      "@id" : "https://w3id.org/def/saref4bldg#limitingTerminalSize",
+      "@type" : "@id"
+    },
+    "Interceptor" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Interceptor"
+    },
+    "isMeasuredIn" : {
+      "@id" : "https://w3id.org/saref#isMeasuredIn",
+      "@type" : "@id"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
+    "coilLength" : {
+      "@id" : "https://w3id.org/def/saref4bldg#coilLength",
+      "@type" : "@id"
+    },
+    "initialResistance" : {
+      "@id" : "https://w3id.org/def/saref4bldg#initialResistance",
+      "@type" : "@id"
+    },
+    "nominalHeatTransferCoefficient" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalHeatTransferCoefficient",
+      "@type" : "@id"
+    },
+    "FlowMeter" : {
+      "@id" : "https://w3id.org/def/saref4bldg#FlowMeter"
+    },
+    "valveOperation" : {
+      "@id" : "https://w3id.org/def/saref4bldg#valveOperation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "fireExit" : {
+      "@id" : "https://w3id.org/def/saref4bldg#fireExit",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "nominalParticleGeometricStandardDeviation" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalParticleGeometricStandardDeviation",
+      "@type" : "@id"
+    },
+    "nominalVolumetricCapacity" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalVolumetricCapacity",
+      "@type" : "@id"
+    },
+    "motorEnclosureType" : {
+      "@id" : "https://w3id.org/def/saref4bldg#motorEnclosureType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "nominalCondensingTemperature" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalCondensingTemperature",
+      "@type" : "@id"
+    },
+    "nominalSorroundingTemperatureHeating" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalSorroundingTemperatureHeating",
+      "@type" : "@id"
+    },
+    "fluidFlowRateMin" : {
+      "@id" : "https://w3id.org/def/saref4bldg#fluidFlowRateMin",
+      "@type" : "@id"
+    },
+    "vibrationTransmissibility" : {
+      "@id" : "https://w3id.org/def/saref4bldg#vibrationTransmissibility",
+      "@type" : "@id"
+    },
+    "compressorSpeed" : {
+      "@id" : "https://w3id.org/def/saref4bldg#compressorSpeed",
+      "@type" : "@id"
+    },
+    "nominalSensibleCapacity" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalSensibleCapacity",
+      "@type" : "@id"
+    },
+    "secondaryCurrentType" : {
+      "@id" : "https://w3id.org/def/saref4bldg#secondaryCurrentType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "nominalLatentCapacity" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalLatentCapacity",
+      "@type" : "@id"
+    },
+    "volumen" : {
+      "@id" : "https://w3id.org/def/saref4bldg#volumen",
+      "@type" : "@id"
+    },
+    "numberOfCircuits" : {
+      "@id" : "https://w3id.org/def/saref4bldg#numberOfCircuits",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "Pump" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Pump"
+    },
+    "inletConnectionSize" : {
+      "@id" : "https://w3id.org/def/saref4bldg#inletConnectionSize",
+      "@type" : "@id"
+    },
+    "operationTemperatureMin" : {
+      "@id" : "https://w3id.org/def/saref4bldg#operationTemperatureMin",
+      "@type" : "@id"
+    },
+    "nominalPartLoadRatio" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalPartLoadRatio",
+      "@type" : "@id"
+    },
+    "foulingFactor" : {
+      "@id" : "https://w3id.org/def/saref4bldg#foulingFactor",
+      "@type" : "@id"
+    },
+    "Alarm" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Alarm"
+    },
+    "lampCompensationType" : {
+      "@id" : "https://w3id.org/def/saref4bldg#lampCompensationType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "solarReflectance" : {
+      "@id" : "https://w3id.org/def/saref4bldg#solarReflectance",
+      "@type" : "@id"
+    },
+    "outletTemperatureMax" : {
+      "@id" : "https://w3id.org/def/saref4bldg#outletTemperatureMax",
+      "@type" : "@id"
+    },
+    "relatesToProperty" : {
+      "@id" : "https://w3id.org/saref#relatesToProperty",
+      "@type" : "@id"
+    },
+    "size" : {
+      "@id" : "https://w3id.org/def/saref4bldg#size",
+      "@type" : "@id"
+    },
+    "FlowTerminal" : {
+      "@id" : "https://w3id.org/def/saref4bldg#FlowTerminal"
+    },
+    "nominalPowerConsumption" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalPowerConsumption",
+      "@type" : "@id"
+    },
+    "Engine" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Engine"
+    },
+    "Actuator" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Actuator"
+    },
+    "secondaryFrequency" : {
+      "@id" : "https://w3id.org/def/saref4bldg#secondaryFrequency",
+      "@type" : "@id"
+    },
+    "visibleLightTransmittance" : {
+      "@id" : "https://w3id.org/def/saref4bldg#visibleLightTransmittance",
+      "@type" : "@id"
+    },
+    "Controller" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Controller"
+    },
+    "BuildingSpace" : {
+      "@id" : "https://w3id.org/def/saref4bldg#BuildingSpace"
+    },
+    "placementType" : {
+      "@id" : "https://w3id.org/def/saref4bldg#placementType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "solarTransmittance" : {
+      "@id" : "https://w3id.org/def/saref4bldg#solarTransmittance",
+      "@type" : "@id"
+    },
+    "AudioVisualAppliance" : {
+      "@id" : "https://w3id.org/def/saref4bldg#AudioVisualAppliance"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "isNeutralPrimaryTerminalAvailable" : {
+      "@id" : "https://w3id.org/def/saref4bldg#isNeutralPrimaryTerminalAvailable",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "contributedLuminousFlux" : {
+      "@id" : "https://w3id.org/def/saref4bldg#contributedLuminousFlux",
+      "@type" : "@id"
+    },
+    "nominalReturnWaterTemperatureCooling" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalReturnWaterTemperatureCooling",
+      "@type" : "@id"
+    },
+    "nominalFilterFaceVelocity" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalFilterFaceVelocity",
+      "@type" : "@id"
+    },
+    "nominalParticleGeometricMeanDiameter" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalParticleGeometricMeanDiameter",
+      "@type" : "@id"
+    },
+    "hasHotGasBypass" : {
+      "@id" : "https://w3id.org/def/saref4bldg#hasHotGasBypass",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "nominalMediaSurfaceVelocity" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalMediaSurfaceVelocity",
+      "@type" : "@id"
+    },
+    "Chiller" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Chiller"
+    },
+    "nominalSupplyVoltage" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalSupplyVoltage",
+      "@type" : "@id"
+    },
+    "nominalTotalPressure" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalTotalPressure",
+      "@type" : "@id"
+    },
+    "electricMotorEfficiency" : {
+      "@id" : "https://w3id.org/def/saref4bldg#electricMotorEfficiency",
+      "@type" : "@id"
+    },
+    "thermalConductivity" : {
+      "@id" : "https://w3id.org/def/saref4bldg#thermalConductivity",
+      "@type" : "@id"
+    },
+    "internalControl" : {
+      "@id" : "https://w3id.org/def/saref4bldg#internalControl",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "roughness" : {
+      "@id" : "https://w3id.org/def/saref4bldg#roughness",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "FlowController" : {
+      "@id" : "https://w3id.org/def/saref4bldg#FlowController"
+    },
+    "firstCurvatureRadius" : {
+      "@id" : "https://w3id.org/def/saref4bldg#firstCurvatureRadius",
+      "@type" : "@id"
+    },
+    "Device" : {
+      "@id" : "https://w3id.org/saref#Device"
+    },
+    "UnitaryControlElement" : {
+      "@id" : "https://w3id.org/def/saref4bldg#UnitaryControlElement"
+    },
+    "nominalBodyLength" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalBodyLength",
+      "@type" : "@id"
+    },
+    "nominalUa" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalUa",
+      "@type" : "@id"
+    },
+    "apparentPowerMax" : {
+      "@id" : "https://w3id.org/def/saref4bldg#apparentPowerMax",
+      "@type" : "@id"
+    },
+    "Valve" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Valve"
+    },
+    "ProtectiveDeviceTrippingUnit" : {
+      "@id" : "https://w3id.org/def/saref4bldg#ProtectiveDeviceTrippingUnit"
+    },
+    "nominalWaterFlowHeating" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalWaterFlowHeating",
+      "@type" : "@id"
+    },
+    "hasLock" : {
+      "@id" : "https://w3id.org/def/saref4bldg#hasLock",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "hasTimestamp" : {
+      "@id" : "https://w3id.org/saref#hasTimestamp",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "heatExchangeArea" : {
+      "@id" : "https://w3id.org/def/saref4bldg#heatExchangeArea",
+      "@type" : "@id"
+    },
+    "horizontalSpacing" : {
+      "@id" : "https://w3id.org/def/saref4bldg#horizontalSpacing",
+      "@type" : "@id"
+    },
+    "waterInletTemperatureMax" : {
+      "@id" : "https://w3id.org/def/saref4bldg#waterInletTemperatureMax",
+      "@type" : "@id"
+    },
+    "leakageFullyClosed" : {
+      "@id" : "https://w3id.org/def/saref4bldg#leakageFullyClosed",
+      "@type" : "@id"
+    },
+    "airFlowRateMin" : {
+      "@id" : "https://w3id.org/def/saref4bldg#airFlowRateMin",
+      "@type" : "@id"
+    },
+    "numberOfPanels" : {
+      "@id" : "https://w3id.org/def/saref4bldg#numberOfPanels",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "internalWaterVolume" : {
+      "@id" : "https://w3id.org/def/saref4bldg#internalWaterVolume",
+      "@type" : "@id"
+    },
+    "realImpedanceRatio" : {
+      "@id" : "https://w3id.org/def/saref4bldg#realImpedanceRatio",
+      "@type" : "@id"
+    },
+    "ambientDesignDryBulbTemperature" : {
+      "@id" : "https://w3id.org/def/saref4bldg#ambientDesignDryBulbTemperature",
+      "@type" : "@id"
+    },
+    "numberOsSockets" : {
+      "@id" : "https://w3id.org/def/saref4bldg#numberOsSockets",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "coverLength" : {
+      "@id" : "https://w3id.org/def/saref4bldg#coverLength",
+      "@type" : "@id"
+    },
+    "weight" : {
+      "@id" : "https://w3id.org/def/saref4bldg#weight",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "orientation" : {
+      "@id" : "https://w3id.org/def/saref4bldg#orientation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "nominalSupplyVoltageMax" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalSupplyVoltageMax",
+      "@type" : "@id"
+    },
+    "operationTemperatureMax" : {
+      "@id" : "https://w3id.org/def/saref4bldg#operationTemperatureMax",
+      "@type" : "@id"
+    },
+    "nominalPressureDrop" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalPressureDrop",
+      "@type" : "@id"
+    },
+    "EnergyConversionDevice" : {
+      "@id" : "https://w3id.org/def/saref4bldg#EnergyConversionDevice"
+    },
+    "numberOfCells" : {
+      "@id" : "https://w3id.org/def/saref4bldg#numberOfCells",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "nominalSupplyVoltageMin" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalSupplyVoltageMin",
+      "@type" : "@id"
+    },
+    "nominalBodyWidth" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalBodyWidth",
+      "@type" : "@id"
+    },
+    "operatingWeight" : {
+      "@id" : "https://w3id.org/def/saref4bldg#operatingWeight",
+      "@type" : "@id"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "isSpaceOf" : {
+      "@id" : "https://w3id.org/def/saref4bldg#isSpaceOf",
+      "@type" : "@id"
+    },
+    "PhysicalObject" : {
+      "@id" : "https://w3id.org/def/saref4bldg#PhysicalObject"
+    },
+    "hasExteriorInsulation" : {
+      "@id" : "https://w3id.org/def/saref4bldg#hasExteriorInsulation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "isGuarded" : {
+      "@id" : "https://w3id.org/def/saref4bldg#isGuarded",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "ElectricAppliance" : {
+      "@id" : "https://w3id.org/def/saref4bldg#ElectricAppliance"
+    },
+    "nominalHeatingCapacity" : {
+      "@id" : "https://w3id.org/def/saref4bldg#nominalHeatingCapacity",
+      "@type" : "@id"
+    },
+    "powerSource" : {
+      "@id" : "https://w3id.org/def/saref4bldg#powerSource",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "waterPressureMin" : {
+      "@id" : "https://w3id.org/def/saref4bldg#waterPressureMin",
+      "@type" : "@id"
+    },
+    "Sensor" : {
+      "@id" : "https://w3id.org/def/saref4bldg#Sensor"
+    },
+    "secondaryVoltage" : {
+      "@id" : "https://w3id.org/def/saref4bldg#secondaryVoltage",
+      "@type" : "@id"
+    },
+    "ventilatingPipeSize" : {
+      "@id" : "https://w3id.org/def/saref4bldg#ventilatingPipeSize",
+      "@type" : "@id"
+    }
+  }
+}

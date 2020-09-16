@@ -1,0 +1,268 @@
+{
+  "@context" : {
+    "UnitOfMeasure" : {
+      "@id" : "https://w3id.org/saref#UnitOfMeasure"
+    },
+    "hasManufacturer" : {
+      "@id" : "https://w3id.org/saref#hasManufacturer"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "Photometer" : {
+      "@id" : "https://w3id.org/def/saref4envi#Photometer"
+    },
+    "hasShield" : {
+      "@id" : "https://w3id.org/def/saref4envi#hasShield",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "CompassDirection" : {
+      "@id" : "https://w3id.org/def/saref4envi#CompassDirection"
+    },
+    "DigitalRepresentation" : {
+      "@id" : "https://w3id.org/def/saref4envi#DigitalRepresentation"
+    },
+    "hasLightPoint" : {
+      "@id" : "https://w3id.org/def/saref4envi#hasLightPoint",
+      "@type" : "@id"
+    },
+    "hasTag" : {
+      "@id" : "https://w3id.org/def/saref4envi#hasTag",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "TemporalUnit" : {
+      "@id" : "http://www.w3.org/2006/time#TemporalUnit"
+    },
+    "hasName" : {
+      "@id" : "https://w3id.org/saref#hasName"
+    },
+    "hasDigitalRepresentation" : {
+      "@id" : "https://w3id.org/def/saref4envi#hasDigitalRepresentation",
+      "@type" : "@id"
+    },
+    "hasVersion" : {
+      "@id" : "https://w3id.org/def/saref4envi#hasVersion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "measuresProperty" : {
+      "@id" : "https://w3id.org/saref#measuresProperty",
+      "@type" : "@id"
+    },
+    "Geometry" : {
+      "@id" : "https://w3id.org/def/saref4envi#Geometry"
+    },
+    "hasValue" : {
+      "@id" : "https://w3id.org/saref#hasValue"
+    },
+    "PeriodMeasurement" : {
+      "@id" : "https://w3id.org/def/saref4envi#PeriodMeasurement"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasIdentifier" : {
+      "@id" : "https://w3id.org/def/saref4envi#hasIdentifier",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "contains" : {
+      "@id" : "https://w3id.org/def/saref4envi#contains",
+      "@type" : "@id"
+    },
+    "Measurement" : {
+      "@id" : "https://w3id.org/saref#Measurement"
+    },
+    "hasColor" : {
+      "@id" : "https://w3id.org/def/saref4envi#hasColor",
+      "@type" : "@id"
+    },
+    "HeightMeasurement" : {
+      "@id" : "https://w3id.org/def/saref4envi#HeightMeasurement"
+    },
+    "isProjectedInDirection" : {
+      "@id" : "https://w3id.org/def/saref4envi#isProjectedInDirection",
+      "@type" : "@id"
+    },
+    "hasProjectionAngle" : {
+      "@id" : "https://w3id.org/def/saref4envi#hasProjectionAngle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "Light" : {
+      "@id" : "https://w3id.org/def/saref4envi#Light"
+    },
+    "projectsLight" : {
+      "@id" : "https://w3id.org/def/saref4envi#projectsLight",
+      "@type" : "@id"
+    },
+    "LightPoint" : {
+      "@id" : "https://w3id.org/def/saref4envi#LightPoint"
+    },
+    "Lamppost" : {
+      "@id" : "https://w3id.org/def/saref4envi#Lamppost"
+    },
+    "hasFrequencyMeasurement" : {
+      "@id" : "https://w3id.org/def/saref4envi#hasFrequencyMeasurement",
+      "@type" : "@id"
+    },
+    "LengthUnit" : {
+      "@id" : "https://w3id.org/def/saref4envi#LengthUnit"
+    },
+    "usesCommunicationProtocol" : {
+      "@id" : "https://w3id.org/def/saref4envi#usesCommunicationProtocol",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "isConnectedTo" : {
+      "@id" : "https://w3id.org/def/saref4envi#isConnectedTo",
+      "@type" : "@id"
+    },
+    "CommunicationProtocol" : {
+      "@id" : "https://w3id.org/def/saref4envi#CommunicationProtocol"
+    },
+    "isContainedIn" : {
+      "@id" : "https://w3id.org/def/saref4envi#isContainedIn",
+      "@type" : "@id"
+    },
+    "location" : {
+      "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#location",
+      "@type" : "@id"
+    },
+    "isComponentOf" : {
+      "@id" : "https://w3id.org/def/saref4envi#isComponentOf",
+      "@type" : "@id"
+    },
+    "isAccesibleThrough" : {
+      "@id" : "https://w3id.org/def/saref4envi#isAccesibleThrough",
+      "@type" : "@id"
+    },
+    "affectsProperty" : {
+      "@id" : "https://w3id.org/def/saref4envi#affectsProperty",
+      "@type" : "@id"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "CommunicationInterface" : {
+      "@id" : "https://w3id.org/def/saref4envi#CommunicationInterface"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "Point" : {
+      "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#Point"
+    },
+    "makesMeasurement" : {
+      "@id" : "https://w3id.org/saref#makesMeasurement",
+      "@type" : "@id"
+    },
+    "isProjectedFromHeight" : {
+      "@id" : "https://w3id.org/def/saref4envi#isProjectedFromHeight",
+      "@type" : "@id"
+    },
+    "hasGeometry" : {
+      "@id" : "https://w3id.org/def/saref4envi#hasGeometry",
+      "@type" : "@id"
+    },
+    "Property" : {
+      "@id" : "https://w3id.org/saref#Property"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "isMeasuredIn" : {
+      "@id" : "https://w3id.org/saref#isMeasuredIn",
+      "@type" : "@id"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
+    "hasTransmissionPeriod" : {
+      "@id" : "https://w3id.org/def/saref4envi#hasTransmissionPeriod",
+      "@type" : "@id"
+    },
+    "hasFlash" : {
+      "@id" : "https://w3id.org/def/saref4envi#hasFlash",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "hasCreationDate" : {
+      "@id" : "https://w3id.org/def/saref4envi#hasCreationDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "FrequencyUnit" : {
+      "@id" : "https://w3id.org/def/saref4envi#FrequencyUnit"
+    },
+    "hasRevisionNumber" : {
+      "@id" : "https://w3id.org/def/saref4envi#hasRevisionNumber",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "relatesToProperty" : {
+      "@id" : "https://w3id.org/saref#relatesToProperty",
+      "@type" : "@id"
+    },
+    "usesCommunicationInterface" : {
+      "@id" : "https://w3id.org/def/saref4envi#usesCommunicationInterface",
+      "@type" : "@id"
+    },
+    "Actuator" : {
+      "@id" : "https://w3id.org/def/saref4envi#Actuator"
+    },
+    "SpatialThing" : {
+      "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Service" : {
+      "@id" : "https://w3id.org/saref#Service"
+    },
+    "encapsulates" : {
+      "@id" : "https://w3id.org/def/saref4envi#encapsulates",
+      "@type" : "@id"
+    },
+    "LightProperty" : {
+      "@id" : "https://w3id.org/def/saref4envi#LightProperty"
+    },
+    "System" : {
+      "@id" : "https://w3id.org/def/saref4envi#System"
+    },
+    "hasComponent" : {
+      "@id" : "https://w3id.org/def/saref4envi#hasComponent",
+      "@type" : "@id"
+    },
+    "Color" : {
+      "@id" : "https://w3id.org/def/saref4envi#Color"
+    },
+    "Device" : {
+      "@id" : "https://w3id.org/def/saref4envi#Device"
+    },
+    "hasDescription" : {
+      "@id" : "https://w3id.org/saref#hasDescription"
+    },
+    "hasTimestamp" : {
+      "@id" : "https://w3id.org/saref#hasTimestamp",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "TESS" : {
+      "@id" : "https://w3id.org/def/saref4envi#TESS"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "PhysicalObject" : {
+      "@id" : "https://w3id.org/def/saref4envi#PhysicalObject"
+    },
+    "FrequencyMeasurement" : {
+      "@id" : "https://w3id.org/def/saref4envi#FrequencyMeasurement"
+    },
+    "Sensor" : {
+      "@id" : "https://w3id.org/saref#Sensor"
+    }
+  }
+}
